@@ -1,0 +1,283 @@
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.custom-nav {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+/* HERO SECTION */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding-top: 40px;
+}
+
+.intro-text {
+  letter-spacing: 2px;
+  color: #00ffd5;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.hero-subtitle span {
+  color: #00ffd5;
+}
+
+.hero-desc {
+  margin-top: 15px;
+  line-height: 1.7;
+}
+
+/* HERO IMAGE CIRCLE */
+.hero-img {
+  width: 250px;           /* Width of circle */
+  height: 250px;          /* Height same as width */
+  border-radius: 50%;     /* Makes it circular */
+  object-fit: cover;      /* Makes image fit perfectly */
+  border: 5px solid #00ffd5; /* Optional glowing border */
+  box-shadow: 0 0 20px #00ffd5; /* Optional glow effect */
+   /*animation: float 3s ease-in-out infinite; Floating effect */
+}
+
+/* Floating animation 
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}*/
+
+
+/* ABOUT SECTION */
+.about-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.section-title {
+  font-weight: 800;
+}
+
+/* About Card */
+.about-card {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.about-card span {
+  color: #007bff;
+}
+
+.about-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Info Boxes */
+.about-box {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.about-box i {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.about-box:hover {
+  transform: translateY(-8px);
+}
+
+
+
+
+/* Sections */
+.section {
+  padding: 80px 0;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Button */
+.btn-main {
+  background: #00ffd5;
+  color: black;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* SKILLS SECTION */
+.skills-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+/* Skill Card */
+.skill-card {
+  background: #f8f9fa;
+  padding: 25px 20px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Icons */
+.skill-card i {
+  font-size: 40px;
+  color: #007bff;
+}
+
+/* Skill Name */
+.skill-name {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Progress Bars */
+.progress {
+  height: 8px;
+  border-radius: 10px;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  border-radius: 10px;
+}
+
+
+
+
+
+
+/* PROJECTS SECTION */
+.projects-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+/* Project Card */
+.project-card {
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Project Title */
+.project-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* Project Description */
+.project-desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Button */
+.project-card .btn {
+  font-size: 0.85rem;
+  padding: 6px 14px;
+}
+
+
+
+
+
+
+
+/* CONTACT SECTION */
+.contact-section {
+  padding: 80px 0;
+  background: linear-gradient(120deg, #000428, #004e92);
+  color: #fff;
+}
+
+/* Section title */
+.contact-section .section-title {
+  color: #fff;
+  font-weight: 800;
+}
+
+/* Contact Info */
+.contact-info {
+  background: rgba(255,255,255,0.05);
+  color: #fff;
+}
+
+.contact-info p i {
+  color: #00ffd5;
+  margin-right: 8px;
+}
+
+.social-links a i {
+  color: #00ffd5;
+  transition: 0.3s;
+}
+
+.social-links a:hover i {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+/* Contact Form */
+.contact-form {
+  background: #fff;
+  color: #333;
+}
+
+.contact-form .form-control {
+  border-radius: 10px;
+}
+
+.contact-form .btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.contact-form .btn:hover {
+  background: #00ffd5;
+  color: #000;
+}

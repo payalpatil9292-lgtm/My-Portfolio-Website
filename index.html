@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HOME SECTION ================= -->
+<section id="home" class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-md-6 text-white" data-aos="fade-right">
+        <h5 class="intro-text">Hello, I'm</h5>
+        <h1 class="hero-title">Payal Patil</h1>
+        <h3 class="hero-subtitle">
+          <span>MCA Student</span>
+        </h3>
+
+        <p class="hero-desc">
+          Passionate about Data Analysis, Web Development, and building professional digital solutions.
+        </p>
+
+        <div class="mt-4">
+          <a href="#projects" class="btn btn-primary me-3">View Projects</a>
+          <a href="#contact" class="btn btn-outline-light">Contact Me</a>
+        </div>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-md-6 text-center" data-aos="fade-left">
+        <img src="c:\Payal\Asp.Net project\Website\Profile_image.png" class="hero-img" alt="Payal Patil">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+
+
+<!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="about-section">
+  <div class="container">
+    
+    <h2 class="section-title text-center mb-5" data-aos="fade-up">
+      About Me
+    </h2>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-10" data-aos="fade-up">
+
+        <div class="about-card text-center">
+          <h3 class="mb-3">
+            Hello, I’m <span>Payal Patil</span>
+          </h3>
+
+          <p class="about-text">
+            I am an MCA student with a strong passion for
+            <b>Data Analysis, Web Development, and Business Intelligence</b>.
+            I can do to working with data, creating dashboards, and building
+            modern, responsive websites using professional technologies.
+          </p>
+
+          <div class="row mt-4">
+            <div class="col-md-3 col-6 mb-3">
+              <div class="about-box">
+                <i class="fas fa-graduation-cap"></i>
+                <h6>Education</h6>
+                <p>MCA (Pursuing)</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-3">
+              <div class="about-box">
+                <i class="fas fa-chart-line"></i>
+                <h6>Career Goal</h6>
+                <p>Data Analyst</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-3">
+              <div class="about-box">
+                <i class="fas fa-laptop-code"></i>
+                <h6>Core Skills</h6>
+                <p>SQL, Python, Excel Basics, HTML, CSS, JavaScript, Web Development</p>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-6 mb-3">
+              <div class="about-box">
+                <i class="fas fa-briefcase"></i>
+                <h6>Experience</h6>
+                <p>Student</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary mt-4">
+            Contact Me
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ================= SKILLS SECTION ================= -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    
+    <h2 class="section-title text-center mb-5" data-aos="fade-up">
+      My Skills
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- Skill Card Example -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="skill-card text-center">
+          <i class="fab fa-html5"></i>
+          <h5 class="skill-name mt-2">HTML</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-card text-center">
+          <i class="fab fa-css3-alt"></i>
+          <h5 class="skill-name mt-2">CSS</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="skill-card text-center">
+          <i class="fab fa-js-square"></i>
+          <h5 class="skill-name mt-2">JavaScript</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-card text-center">
+          <i class="fab fa-bootstrap"></i>
+          <h5 class="skill-name mt-2">Website Building</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="250">
+        <div class="skill-card text-center">
+          <i class="fas fa-database"></i>
+          <h5 class="skill-name mt-2">SQL</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="skill-card text-center">
+          <i class="fab fa-python"></i>
+          <h5 class="skill-name mt-2">Python</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="350">
+        <div class="skill-card text-center">
+          <i class="fas fa-chart-bar"></i>
+          <h5 class="skill-name mt-2">C</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-secondary" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="skill-card text-center">
+          <i class="fas fa-file-excel"></i>
+          <h5 class="skill-name mt-2">Excel Basics</h5>
+          <div class="progress mt-2">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ================= PROJECTS SECTION ================= -->
+<section id="projects" class="projects-section">
+  <div class="container">
+    
+    <h2 class="section-title text-center mb-5" data-aos="fade-up">
+      My Projects
+    </h2>
+
+    <div class="row g-4">
+
+      <!-- Project Card Example -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="50">
+        <div class="project-card">
+          <h5 class="project-title">Portfolio Website</h5>
+          <p class="project-desc">
+            A fully responsive portfolio website built with HTML, CSS, Bootstrap, and JS.
+          </p>
+          <a href="#" class="btn btn-primary btn-sm mt-2">View Project</a>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-card">
+          <h5 class="project-title">Subjiwala.com</h5>
+          <p class="project-desc">
+          Delivers fresh farm-to-table vegetables and groceries straight to your doorstep.
+          </p>
+          <a href="#" class="btn btn-primary btn-sm mt-2">View Project</a>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="project-card">
+          <h5 class="project-title">Library Management System</h5>
+          <p class="project-desc">
+            Developed a SQL-based Library Management System to manage books, members, and transactions efficiently.
+          </p>
+          <a href="#" class="btn btn-primary btn-sm mt-2">View Project</a>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-card">
+          <h5 class="project-title">Bachlor Of Computer Application</h5>
+          <p class="project-desc">
+          Developed a Library & Academic Management System for their department.
+          </p>
+          <a href="#" class="btn btn-primary btn-sm mt-2">View Project</a>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- ================= CONTACT SECTION ================= -->
+<section id="contact" class="contact-section">
+  <div class="container">
+
+    <h2 class="section-title text-center mb-5" data-aos="fade-up">
+      Contact Me
+    </h2>
+
+    <div class="row justify-content-center">
+
+      <!-- Contact Info -->
+      <div class="col-lg-5 mb-4" data-aos="fade-right">
+        <div class="contact-info p-4 rounded shadow-sm">
+          <h5>Get in Touch</h5>
+          <p>Feel free to reach out for collaborations or projects!</p>
+          
+          <p><i class="fas fa-envelope"></i> Email: payalpatil@gmail.com</p>
+          <p><i class="fas fa-phone"></i> Phone: +91 91xxxxxx</p>
+          <p><i class="fas fa-map-marker-alt"></i> Location: India</p>
+
+          <div class="social-links mt-3">
+            <a href="https://www.linkedin.com/in/payal-patil-188b8b321" class="me-3"><i class="fab fa-linkedin fa-lg"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-github fa-lg"></i></a>
+            <a href="#" class="me-3"><i class="fab fa-instagram fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6" data-aos="fade-left">
+        <div class="contact-form p-4 rounded shadow-sm bg-light">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+</body>
+</html>
